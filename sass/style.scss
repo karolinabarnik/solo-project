@@ -1,29 +1,6 @@
 @import "variables";
-@import "mixins";
-
 @import "normalize";
 @import "layout";
 
-/* Components */
-@import "components/form_field";
-@import "components/row-links";
-
-/* Sections */
-@import "sections/sidebar";
-@import "sections/top-menu";
-@import "sections/addBanners";
-@import "sections/addUrl";
-@import "sections/login";
-@import "sections/chat";
-@import "sections/quit";
 
 
-/* Pages / Views */
-
-@import "pages/general";
-@import "pages/links";
-@import "pages/banners";
-@import "pages/personal-data";
-@import "pages/detail-statistic";
-@import "pages/payout-history";
-@import "pages/postback";

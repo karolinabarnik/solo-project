@@ -1,9 +1,8 @@
-function toggleMenu() {
-  document.querySelector('.main-menu').classList.toggle('show')
-}
+function toggleMenu(visible) {
+    document.querySelector('.menu').classList.toggle('show', visible)
+  }
 
-document.querySelector('.fas.fa-bars').addEventListener('click', function(e) {
-	e.preventDefault();
-	toggleMenu()
-});
-
+  document.querySelector('.hamburger').addEventListener('click', function(e) {
+    e.preventDefault();
+    toggleMenu()
+  });
