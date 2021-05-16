@@ -1,0 +1,77 @@
+.top-menu {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 137%;
+  background-color: $sidebar-text-color;
+  padding-left: 378px;
+    
+  i {
+    margin: 22px 10px 25px 10px;
+    color: $header-color;
+  }
+
+  a:first-of-type {
+    border-right: 1px solid;
+    border-color: $header-color;
+  }
+
+  a:last-of-type {
+    border-left: 1px solid;
+    border-color: $header-color;
+  }
+
+}
+
+#wallet {
+  width: 110px;
+  color: $header-color;
+  border: none;
+}
+
+.wallet {
+  padding-top: 22px;
+  color: $header-color;
+  border-right-color: $header-color;
+  border-right: 1px solid;
+  padding-right: 15px;
+}
+
+.fas.fa-wallet {
+  border-left-color: $header-color;
+  border-left: 1px solid;
+  margin-bottom: 0;
+  padding-left: 15px;
+  padding-top: 22px;
+  margin-top: 0;
+  
+}
+
+
+.fas.fa-sign-out-alt {
+  margin-bottom: 0;
+  padding-left: 22px;
+  padding-right: 15px;
+  margin-top: 0;
+  padding-top: 22px;
+}
+
+.far.fa-bell {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 22px;
+  margin-bottom: 0;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+@media (max-width: 767px) {
+  .top-menu {
+    visibility: hidden;
+  }
+}

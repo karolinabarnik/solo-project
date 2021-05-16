@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first colo-project</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/bootstrap-grid.css">
+    <link rel="stylesheet" href="vendor/range-slider.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="logo">
+          <ul>
+            <li>Just do it</li>
+            <li><a href="#"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </div>
+        <div class="main-menu">
+          <div class="menu">
+            <ul>
+                <li><a href="#"><i class="far fa-star"></i>General</a></li>
+              <li><a href="#"><i class="fas fa-th-list"></i>Details</a></li>
+              <li><a href="#"><i class="fas fa-link"></i>Links</a></li>
+              <li><a href="#"><i class="fas fa-qrcode"></i>Banners</a></li>
+              <li><a href="#"><i class="far fa-user"></i>Personal data</a></li>
+              <li><a href="#"><i class="fas fa-dollar-sign"></i>Payout</a></li>
+              <li><a href="#"><i class="fas fa-reply-all"></i>Postback</a></li>
+            </ul>
+          </div>
+          <div class="manager">
+            <h3>OUR MANAGER</h3>
+            <a href="#"><img src="images/manager-black.jpg">Mikhael E.</a>
+          </div>
+          <div class="top-in-sidebar">
+            <div class="wallet">
+              <a href="#"><i class="fas fa-wallet"></i></a>
+              <label for="wallet"></label>
+              <select id="wallet">
+                <option alt="disabled selected">$ 1,500.00</option>
+                <option value="$1,500.00"></option>
+                <option value="$2,000.00"></option>
+              </select>
+            </div>
+            <div class="top-menu-sidebar">
+              <a href="#"><i class="far fa-bell"></i></a>
+              <a href="#"><i class="far fa-user-circle"></i>Leonardo Dicaprio</a>
+              <a href="#"><i class="fas fa-sign-out-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">   
+        <div class="top-menu">
+          <i class="fas fa-wallet"></i>
+          <div class="wallet">
+            <label for="wallet"></label>
+            <select id="wallet">
+              <option alt="disabled selected">$ 1,500.00</option>
+              <option value="$1,500.00"></option>
+              <option value="$2,000.00"></option>
+            </select>
+          </div>
+          <a href="#"><i class="far fa-bell"></i></a>
+          <a href="#"><i class="far fa-user-circle"></i></a>
+          <p>Leonardo Dicaprio</p>
+          <a href="#"><i class="fas fa-sign-out-alt"></i></a>
+        </div>
+          
+        <div class="layout-pages">
+          <div class="general">
+            <div class="general-statistic">
+              <h2>GENERAL STATISTIC</h2>
+              <div class="date">
+                <p>16.05.2020</p>
+                <p>16.05.2020<a href="#"><i class="far fa-calendar-alt"></i></a></p>
+                <a href="#"><i class="fas fa-redo btn-1"></i></a>
+              </div>
+            <div class="chart">
+              <table class="statistic">
+                <tr>
+                  <td width=220>Visit Signups</td><td width=20>124</td>
+                </tr>
+                <tr>
+                  <td width=220>FTD</td><td>445</td>
+                </tr>
+              </table>
+              <table class="statistic">
+                <tr>
+                  <td width=220>Net deposit</td><td width=20>564</td>
+                </tr>
+                <tr>
+                  <td width=220>Turn over</td><td>432</td>
+                </tr>
+              </table>
+              <div class="scroll-wrapper">
+                <div class="chart-image">  
+                  <img src="images/general.jpg">
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          <div class="links">
+            <h2>LINKS</h2>
+            <div class="links-content">
+              <div class="btn"><a href="#">+ add new</a>
+              </div>
+              <div class="scroll-wrapper">
+                <table class="table-links">
+                  <tr>
+                    <td width=280>Home page</td><td width=300><a href="#">http://www.homepage.com</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                  </tr>
+                  <tr>
+                    <td width=280>Currently offer</td><td width=300><a href="#">http://www.homepage.com</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                  </tr>
+                  <tr>
+                    <td width=280>Blurpix</td><td width=300><a href="#">http://www.blurpix.com</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                  </tr>
+                  <tr>
+                    <td width=280>Google</td><td width=300><a href="#">http://www.google.com</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                  </tr>
+                  <tr>
+                    <td width=280>Facebook</td><td width=300><a href="#">http://www.facebook.com</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                  </tr>
+                  <tr>
+                    <td width=280>Dashboard</td><td width=300><a href="#">http://www.dashboard.com</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                  </tr>
+                  <tr>
+                    <td width=280>Blurax</td><td width=300><a href="#">http://www.blurax.com</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                  </tr>
+                  <tr>
+                    <td width=280>Piece of Wine</td><td width=300><a href="#">http://www.pieceofwine.com</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                  </tr>
+                  <tr>
+                    <td width=280>Twitter</td><td width=300><a href="#">http://www.twitter.com</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                  </tr>
+                </table>
+              </div>  
+              <div class="btn"><a href="#">+ add new</a></div>
+            </div>
+          </div>
+     
+          <div class="login">
+            <h3>LOGIN</h3>
+            <div class="formlogin">
+              <img src="images/login.svg"><input type="text" name="login name" required value="login name">
+            </div>
+            <div class="formlogin">
+              <img src="images/password.svg"><input type="text" name="password" required value="password">
+            </div>
+            <div class="formlogin">
+              <a href="#" class="btn">Enter</a>
+            </div>
+          </div>
+
+          <div class="quit">
+            <h4>Do you really want to quit?</h4>
+            <div class="btn"><a href="#">Cancel</a></div>
+            <div class="btn"><a href="#">Quit</a></div>
+          </div>
+
+          <div class="addbanners">
+            <h2>ADD BANNERS</h2>
+            <h4>Scheme name</h4>
+            <h4>Compain</h4>
+            <h4 class="last">Language</h4>
+            <br>
+            <div class="formlogin">
+              <input type="text" name="schemename" required value="Name">
+            </div>
+            <div class="formlogin">
+              <input type="text" name="compain" required value="Select">
+            </div>
+            <div class="formlogin england">
+              <img src="images/england.jpg"><input type="text" name="language" required value="EN"><a href="#" class="table-date"><img src="images/arrow-down-small.svg"></a>
+            </div>
+            <br>
+            <div class="secondrow">
+              <h4>Weight-height</h4>
+              <h4>Design</h4>
+              <h4>File type</h4>
+            </div>
+            <br>
+            <div class="formlogin-2">
+              <input type="text" name="weight-height" required value="Select"><a href="#" class="table-date"><img src="images/arrow-down-small.svg"></a>
+            </div>
+            <div class="formlogin-2">
+              <input type="text" name="design" required value="Select"><a href="#" class="table-date"><img src="images/arrow-down-small.svg"></a>
+            </div>
+            <div class="formlogin-2">
+              <input type="text" name="Filetype" required value="All"><a href="#" class="table-date"><img src="images/arrow-down-small.svg"></a>
+            </div>
+
+            <div class="checkboxlist">
+              <ul>
+                <h4>Select banners</h4>
+                <li><input type="checkbox" name="select_banners" value="banner_main">Banner main</li>
+                <li><input type="checkbox" name="select_banners" value="signup_banner">Sign up banner</li>
+                <li><input type="checkbox" name="select_banners" value="left_banner">Left banner</li>
+                <li><input type="checkbox" name="select_banners" value="right_banner">Right banner</li>
+                <li><input type="checkbox" name="select_banners" value="bottom_banner">Bottom banner</li>
+                <li><input type="checkbox" name="select_banners" value="long_banner">Long banner</li>
+                <li><input type="checkbox" name="select_banners" value="personal_banner">Personal cabinet banner</li>
+                <li><input type="checkbox" name="select_banners" value="popup_banner">Popup banner</li>
+                <li><input type="checkbox" name="select_banners" value="banner_main">Banner main</li>
+                <li><input type="checkbox" name="select_banners" value="signup_banner">Sign up banner</li>
+                <li><input type="checkbox" name="select_banners" value="left_banner">Left banner</li>
+              </ul>
+              <ul>
+                <h4>Select websites</h4>
+                <li><input type="checkbox" name="select_banners" value="page_money">Landing page money<i class="fas fa-sign-out-alt"></i></li>
+                <li><input type="checkbox" name="select_banners" value="your_choice">LP Your choise<i class="fas fa-sign-out-alt"></i></li>
+                <li><input type="checkbox" name="select_banners" value="lp_wallet">LP Wallet<i class="fas fa-sign-out-alt"></i></li>
+                <li><input type="checkbox" name="select_banners" value="e_shop">E-Shop 01<i class="fas fa-sign-out-alt"></i></li>
+                <li><input type="checkbox" name="select_banners" value="toy-store">Toy store<i class="fas fa-sign-out-alt"></i></li>
+                <li><input type="checkbox" name="select_banners" value="book_store">Book store<i class="fas fa-sign-out-alt"></i></li>
+                <li><input type="checkbox" name="select_banners" value="charity">Charity<i class="fas fa-sign-out-alt"></i></li>
+                <li><input type="checkbox" name="select_banners" value="icons_store">LP Icons Store<i class="fas fa-sign-out-alt"></i></li>
+                <li><input type="checkbox" name="select_banners" value="page_money">Landing page money</li>
+                <li><input type="checkbox" name="select_banners" value="your_choice">LP Your choise</li>
+                <li><input type="checkbox" name="select_banners" value="lp_wallet">LP Wallet</li>
+              </ul>
+            </div>
+            <div class="generated-link">
+              <div class="formlogin-3">
+                <input type="text" name="generated_link" required value="Generated link">             
+              </div>
+              <div class="formlogin-3">
+                <div class="btn"><a href="#"><img src="images/links.svg">Copy link</a></div>
+              </div>
+              <div class="formlogin-3">
+                <div class="btn"><a href="#">Save</a></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="addUrl">
+            <h2>ADD URL</h2>
+            <h4>Scheme name</h4>
+            <h4>Compain</h4>
+            <h4 class="last">Language</h4>
+            <br>
+            <div class="formlogin">
+              <input type="text" name="schemename" required value="Name">
+            </div>
+            <div class="formlogin">
+              <input type="text" name="compain" required value="Select">
+            </div>
+            <div class="formlogin england">
+              <img src="images/england.jpg"><input type="text" name="language" required value="EN"><a href="#" class="table-date"><img src="images/arrow-down-small.svg"></a>
+            </div>
+            <br>
+            <div class="checkboxlist">
+              <h4>Select websites</h4>  
+              <div class="list">
+                <ul>
+                  <li><input type="checkbox" name="select_websites" value="page_money">Landing page money<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="your_choice">LP Your choice<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="lp_wallet">LP Wallet<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="e_shop">E-Shop 01<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="toy_store">Toy store<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="book_store">Book store<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="charity">Charity<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="icons_store">LP Icons Store<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="templates">Templates Store<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="random">Random text<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="templates">Templates Store<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="random">Random text<i class="fas fa-sign-out-alt"></i></li>
+                </ul>
+                <ul>
+                  <li><input type="checkbox" name="select_websites" value="mobile_app">Mobile app<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="lp_senator">LP Senator free signals<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="deyour_choice">LP DE Your choice<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="invest">Invest wisely<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="lp_sign">Toy store LP Sign up page<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="account">Senator Account types<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="mobile_app">Senator Mobile app<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="senator_store">Senator Store<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="promo">Senator April Promo<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="language">Language Learning LP<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="promo">Senator April Promo<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="language">Language Learning LP<i class="fas fa-sign-out-alt"></i></li>
+                </ul>
+                <ul>
+                  <li><input type="checkbox" name="select_websites" value="second_site">Your second site<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="second_lp">Your second LP<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="page_money">Landing page Money<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="Your">LP Your choice<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="lp_wallet">LP Wallet<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="e_shop">E-shop 01<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="toy_store">Toy store<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="book_store">Book Store<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="mobile_app">Mobile app<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="lp_senator">LP Senator free signals<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="mobile_app">Mobile app<i class="fas fa-sign-out-alt"></i></li>
+                  <li><input type="checkbox" name="select_websites" value="lp_senator">LP Senator free signals<i class="fas fa-sign-out-alt"></i></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="generated-link">
+              <div class="formlogin-3">
+                <input type="text" name="generated_link" required value="Generated link">             
+              </div>
+              <div class="formlogin-3">
+                <div class="btn"><a href="#"><img src="images/links.svg">Copy link</a></div>
+              </div>
+              <div class="formlogin-3">
+                <div class="btn"><a href="#">Save</a></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="chat">
+            <h2>ONLINE CHAT WITH YOUR PERSONAL MANAGER</h2>
+            <ul>
+              <li><img src="images/manager-1.jpg"></li>
+            </ul>
+            <ul>
+              <li>Michael E.</li>
+              <li>online</li>
+            </ul>
+            <div class="chat-chat">
+              <p class="manager-radius">nothing</p>
+              <p class="manager-chat">Hello. Can I help you?</p>
+              <p class="client-chat">Hello! i would you like to know about postback.</p>
+              <p class="client-radius">Hello! i would you like to know about postback.</p>
+              <p class="manager-radius">nothing</p>
+              <p class="manager-chat">Ok. 5 min.</p>
+            </div>
+            <div class="message">
+              <div class="formlogin-4">
+                <i class="far fa-comment"></i><input type="text" name="generated_link" required value="Enter the message...">             
+              </div>
+              <div class="formlogin-4">
+                <div class="btn"><a href="#">Send</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="details">
+            <h2>DETAIL STATISTIC</h2>
+            <div class="date">
+              <p>16.05.2020</p>
+              <p>16.05.2020<i class="far fa-calendar-alt"></i></p>
+              <i class="fas fa-redo"></i>
+            </div>
+            <table class="table-top">
+              <tr>
+                <td width=110>Tracker name</td><td width=130>Initiated date</td><td width=80>Visits</td><td width=80>Unique</td><td width=90>Signups</td><td width=40>FTD</td><td width=100>Depositors</td><td width=130><div class="date-table"><a href="#" class="table-date">Deposits($)<img src="images/arrow-down-small.svg"></a></div></td><td width=80>Payout($)</td><td width=110>Turnover</td><td width=80>Deal</td>
+              </tr>
+            </table>
+            <table class="table-detail"> 
+              <tr>
+                <td width=110>aff/sam_test</td><td width=150>17/08/02 (12:58)</td><td width=90>232</td><td width=100>114</td><td width=100>12</td><td width=60>6</td><td width=90>3</td><td width=90>34,425.00</td><td width=80>234.00</td><td width=110>421,342.00</td><td width=80>cpl(200)</td>
+              </tr>
+              <tr>
+                <td width=110>aff/leo_test</td><td width=130>15/08/02 (12:58)</td><td width=80>232</td><td width=80>114</td><td width=80>12</td><td width=40>6</td><td width=110>3</td><td width=130>29,436.00</td><td width=80>941.00</td><td width=110>784,435.00</td><td width=80>cpl(200)</td>
+              </tr>
+              <tr>
+                <td>aff/sam_test</td><td>17/08/02 (12:58)</td><td>232</td><td>114</td><td>12</td><td>6</td><td>3</td><td>34,425.00</td><td>234.00</td><td>421,342.00</td><td>cpl(200)</td>
+              </tr>
+              <tr>
+                <td>aff/leo_test</td><td>15/08/02 (12:58)</td><td>232</td><td>114</td><td>12</td><td>6</td><td>3</td><td>29,436.00</td><td>941.00</td><td>784,435.00</td><td>cpl(200)</td>
+              </tr>
+              <tr>
+                <td>aff/sam_test</td><td>17/08/02 (12:58)</td><td>232</td><td>114</td><td>12</td><td>6</td><td>3</td><td>34,425.00</td><td>234.00</td><td>421,342.00</td><td>cpl(200)</td>
+              </tr>
+              <tr>
+                <td>aff/leo_test</td><td>15/08/02 (12:58)</td><td>232</td><td>114</td><td>12</td><td>6</td><td>3</td><td>29,436.00</td><td>941.00</td><td>784,435.00</td><td>cpl(200)</td>
+              </tr>
+              <tr>
+                <td>aff/sam_test</td><td>17/08/02 (12:58)</td><td>232</td><td>114</td><td>12</td><td>6</td><td>3</td><td>34,425.00</td><td>234.00</td><td>421,342.00</td><td>cpl(200)</td>
+              </tr>
+              <tr>
+                <td>aff/leo_test</td><td>15/08/02 (12:58)</td><td>232</td><td>114</td><td>12</td><td>6</td><td>3</td><td>29,436.00</td><td>941.00</td><td>784,435.00</td><td>cpl(200)</td>
+              </tr>
+            </table>
+            <div class="pages-list">
+              <ul>
+                <li><a href="#"><img src="images/arrow-left.svg"></a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+                <li><a href="#"><img src="images/arrow-right.svg"></a></li>
+              </ul>
+            </div>
+          </div>
+            
+          <div class="banners">
+            <h2>BANNERS</h2>
+            <div class="banners-content">
+              <div class="btn"><a href="#">+ add new</a></div>
+              <table class="table-banners">
+                <tr>
+                  <td width=230>Banner main</td><td width=350><a href="#">http://www.website.com/bannermain.gif</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                </tr>
+                <tr>
+                  <td width=230>Sign up banner</td><td width=350><a href="#">http://www.website.com/signup.gif</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                </tr>
+                <tr>
+                  <td width=230>Banner left side</td><td width=350><a href="#">http://www.website.com/leftside.gif</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                </tr>
+                <tr>
+                  <td width=230>Vertical banner</td><td width=350><a href="#">http://www.website.com/vert.gif</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                </tr>
+                <tr>
+                  <td width=230>Front banner</td><td width=350><a href="#">http://www.website.com/front.gif</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                </tr>
+                <tr>
+                  <td width=230>Horizontal banner</td><td width=350><a href="#">http://www.website.com/horizontal.gif</a></td><td width=30><i class="fas fa-link"></i></td><td><i class="fas fa-trash-alt"></i></td>
+                </tr>
+              </table>
+              <div class="btn"><a href="#">+ add new</a></div>
+            </div>
+          </div>
+          
+          <div class="personal-data">
+            <h2>PERSONAL DATA</h2>
+            <table class="personal">
+              <tr>
+                <td width=120>Name</td><td width=200 class="form-personal"><input type="text" name="user-name" value="Leonardo"></td>
+              </tr>
+              <tr>
+                <td>Surname</td><td class="form-personal"><input type="text" name="user-surname" value="Dicaprio"></td>
+              </tr>
+              <tr>
+                <td>E-mail</td><td class="form-personal"><input type="email" value="leo@gmail.com"></td>
+              </tr>
+              <tr>
+                <td>Phone number</td><td class="form-personal"><input type="tel" value="+1 432 555 00 44"></td>
+              </tr>
+            </table>
+            <table class="personal">
+              <tr>
+                <td width=120>Skype</td><td width=200 class="form-personal"><input type="text" name="skype" value="Leonardo.D"></td>
+              </tr>
+              <tr>
+                <td>ICQ</td><td class="form-personal"><input type="text" name="ICQ"></td>
+              </tr>
+              <tr>
+                <td>Msn</td><td class="form-personal"><input type="text" name="Msn"></td>
+              </tr>
+            </table>
+            <table class="personal">
+              <tr>
+                <td width=120 >Wallet</td><td width=200 class="form-personal"><input type="number" name="wallet"></td>
+              </tr>
+            </table>
+            <table class="personal">
+              <tr>
+                <td width=120>Password</td><td width=200 class="form-personal"><input type="password" name="password"></td>
+              </tr>
+              <tr>
+                <td>Repeat</td><td class="form-personal"><input type="password" name="repeat"></td>
+              </tr>
+            </table>
+            <button type="submit" class="btn">Save</button>
+          </div>
+          
+          <div class="payout">
+            <h2>PAYOUT HISTORY</h2>
+            <div class="date">
+              <p>16.05.2020</p>
+              <p>16.05.2020<i class="far fa-calendar-alt"></i></p>
+              <i class="fas fa-redo"></i>
+            </div>
+            <table class="table-top">
+              <tr>
+                <td width=250><div class="date-table"><a href="#" class="table-date">Date<img src="images/arrow-down-small.svg"></a></div></td><td width=250>Amount ($)</td><td width=200>Deal</td><td>Account</td>
+              </tr>
+            </table>
+            <table class="table-payout">    
+              <tr>
+                <td width=250>17/08/02 (12:58)</td><td width=250><a href="#">34,425.00</a></td><td width=200>cpl(200)</td><td>bank</td>
+              </tr>
+              <tr>
+                <td width=250>15/08/02 (12:58)</td><td width=250><a href="#">29,436.00</a></td><td width=200>cpl(200)</td><td>bank</td>
+              </tr>
+              <tr>
+                <td width=250>17/08/02 (12:58)</td><td width=250><a href="#">34,425.00</a></td><td width=200>cpl(200)</td><td>bank</td>
+              </tr>
+              <tr>
+                <td width=250>15/08/02 (12:58)</td><td width=250><a href="#">29,436.00</a></td><td width=200>cpl(200)</td><td>bank</td>
+              </tr>
+              <tr>
+                <td width=250>17/08/02 (12:58)</td><td width=250><a href="#">34,425.00</a></td><td width=200>cpl(200)</td><td>bank</td>
+              </tr>
+              <tr>
+                <td width=250>15/08/02 (12:58)</td><td width=250><a href="#">29,436.00</a></td><td width=200>cpl(200)</td><td>bank</td>
+              </tr>
+              <tr>
+                <td width=250>17/08/02 (12:58)</td><td width=250><a href="#">34,425.00</a></td><td width=200>cpl(200)</td><td>bank</td>
+              </tr>
+              <tr>
+                <td width=250>15/08/02 (12:58)</td><td width=250><a href="#">29,436.00</a></td><td width=200>cpl(200)</td><td>bank</td>
+              </tr>
+            </table>
+            <div class="pages-list">
+              <ul>
+                <li><a href="#"><img src="images/arrow-left.svg"></a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">7</a></li>
+                <li><a href="#">8</a></li>
+                <li><a href="#">9</a></li>
+                <li><a href="#"><img src="images/arrow-right.svg"></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="postback">
+            <h2>NEW POSTBACK</h2>
+            <p>You can insert some parameters in this postback:</p>
+            <div class="title-textarea">
+              <h4>Signup</h4>
+              <h4>Deposit</h4>
+            </div>
+            <br>
+            <div class="textarea">
+              <textarea cols="59" rows="10" maxlength="1000" placeholder="crm_userId=%user_id% subid=%p%"></textarea>
+            </div>
+            <div class="textarea">
+              <textarea cols="59" rows="10" maxlength="1000" placeholder="crm_userId=%user_id% subid=%p%"></textarea>
+            </div>
+            <div class="secondrow">
+              <h4>Postback type</h4>
+              <h4>To countries</h4>
+              <h4>Sending options:</h4>
+            </div>
+            <br>
+            <div class="formlogin-2">
+              <input type="text" name="weight-height" required value="S2S (http://...)"><a href="#" class="table-date"><img src="images/arrow-down-small.svg"></a>
+            </div>
+            <div class="formlogin-2">
+              <input type="text" name="design" required value="Select countries"><a href="#" class="table-date"><img src="images/arrow-down-small.svg"></a>
+            </div>
+            <div class="formlogin-2">
+              <input type="text" name="Filetype" required value="Select"><a href="#" class="table-date"><img src="images/arrow-down-small.svg"></a>
+            </div>
+            <div class="send_statuses">
+              <div class="statuses">  
+                <p>NOT send statuses</p>
+                <ul>
+                  <li><input type="checkbox" name="send_statuses" value="checkNumber">CheckNumber</li>
+                  <li><input type="checkbox" name="send_statuses" value="noAnswer">noAnswer</li>
+                  <li><input type="checkbox" name="send_statuses" value="noCall">noCall</i></li>
+                  <li><input type="checkbox" name="send_statuses" value="callAgain">callAgain</i></li>
+                  <li><input type="checkbox" name="send_statuses" value="noAnswer">noAnswer</li>
+                  <li><input type="checkbox" name="send_statuses" value="noCall">noCall</i></li>
+                  <li><input type="checkbox" name="send_statuses" value="callAgain">callAgain</i></li>
+                </ul>
+              </div>
+              <div class="statuses">
+                <p>Send after:</p>
+                <ul>
+                  <li>0<input type="range" min="0" max="168" step="10">168</li>
+                </ul>
+              </div>  
+            </div>
+            <div class="create_pixel">
+              <button type="submit" class="btn">Create Pixel</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+
+</html>

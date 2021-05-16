@@ -1,0 +1,90 @@
+.banners {
+    background-color: $sidebar-text-color;
+    margin-left: 15px;
+    padding-left: 15px;
+    width: 120%;
+    padding-bottom: 20px;
+    ;
+  
+    h2 {
+      font-size: 18px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid;
+      border-bottom-color: $header-color;
+      }
+  
+    .table-banners {
+      align-content: center;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+  }
+  
+  tr {
+    padding-right: 60px;
+    font-weight: bold;
+    
+    td {
+      border-bottom: 1px solid;
+      border-bottom-color: $header-color;
+      padding-right: 10px;
+      padding-bottom: 15px;
+      padding-top: 30px;
+    }
+  
+    a {
+      text-decoration: none;
+      color: $link-color;
+    }
+    
+    i {
+      visibility: hidden;
+    }
+  
+    .fas.fa-link {
+      color: $brand-main-color;
+    }
+  }
+  
+  .table-banners tr:hover {
+    background-color: #f5f5f2;
+    opacity: 0.8;
+    border-collapse: collapse;
+  
+    i {
+      visibility: visible;
+    }
+  }
+  
+  .btn {
+    background-color: $brand-main-color;
+    width: 120px;
+    padding: 8px 8px 8px 20px;
+    border-radius: 3px;
+    margin-left: 250px;
+  
+    a {
+      text-decoration: none;
+      color: $sidebar-text-color;
+    }
+  }
+  
+  .banners-content {
+    padding-left: 200px;
+  }
+
+  .table-top {
+    img {
+      width: 10px;
+      height: 10px;
+      color: $header-color;
+      margin-left: 12px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .banners {
+      visibility: hidden;
+    }
+  }

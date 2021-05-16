@@ -1,0 +1,36 @@
+body {
+   background-color: $header-color;
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+  font-family: $brand-font;
+  color: $header-color;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.sidebar {
+  width: fit-content;
+  background-color: $sidebar-color;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex: 1;
+  padding-bottom: 500px;
+}
+
+.content {
+  flex: 4;
+}
+
+.h2 {
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .container {
+  width: auto;
+  }
+}
